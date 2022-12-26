@@ -1,9 +1,9 @@
 # Boostrap Grid Email Template
 A responsive email template that includes some other surprises.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://si-email-template.netlify.app/
 
-![alt tag](http://placecorgi.com/1200/650)
+<img src="
 
 ## How It's Made:
 
