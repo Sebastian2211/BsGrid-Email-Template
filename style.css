@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+
+.text-black {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+    text-decoration: white underline;
+    color: white;
+}
+
+.searchbar:hover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+.emails {
+    padding: 0px;
+}
+
+.emails li {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 10px;
+}
+
+.emails li:hover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+    border: solid #7070ff;
+    cursor: pointer;
+    background-color: #7070ff;
+}
+
+
+.emails li input[type=checkbox]:hover {
+    background: blue;
+    cursor: url('trashcan.svg'), auto;
+}
+
+.emails-text {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.marry-you {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 50%;
+}
+
+.marry-you:hover {
+    cursor: pointer;
+}
+
+/* Media Query for phone screens. */
+@media screen and (max-width: 480px) {
+    .marry-you {
+        width: 90%;
+
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+.container-fluid {
+    background: #33CCCC;
+    animation: color 0.3s infinite linear;
+}
+
+
+@keyframes color {
+    0% {
+        background: #33CCCC;
+    }
+
+    20% {
+        background: #33CC36;
+    }
+
+    40% {
+        background: #B8CC33;
+    }
+
+    60% {
+        background: #FCCA00;
+    }
+
+    80% {
+        background: #33CC36;
+    }
+
+    100% {
+        background: #33CCCC;
+    }
+}
