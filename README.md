@@ -3,7 +3,7 @@ A responsive email template that includes some other surprises.
 
 **Link to project:** https://si-email-template.netlify.app/
 
-<img src="ssh.png">
+<img src="/ssh.png" alt="Preview" width=50% />
 
 ## How It's Made:
 
