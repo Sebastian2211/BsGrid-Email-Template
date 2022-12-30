@@ -4,7 +4,9 @@
     font-family: monospace;
 }
 
-
+#mainbar {
+    background-image: url(bg1.jpg);
+}
 .text-black {
     display: flex;
     justify-content: center;
@@ -23,14 +25,14 @@
 }
 
 .navbar a:hover {
-    animation: shake 1s;
+    animation: shake 5s;
     animation-iteration-count: infinite;
     text-decoration: white underline;
     color: white;
 }
 
 .searchbar:hover {
-    animation: shake 1s;
+    animation: shake 5s;
     animation-iteration-count: infinite;
 }
 
@@ -82,6 +84,19 @@
     cursor: pointer;
 }
 
+#compose {
+   position: relative;
+   top: 10%;
+   left: 18cm;
+}
+
+#compose:hover {
+    background-color: darkgrey;
+}
+
+#submit2:hover {
+    background-color: darkgray;
+}
 /* Media Query for phone screens. */
 @media screen and (max-width: 480px) {
     .marry-you {
@@ -139,7 +154,7 @@
 
 .container-fluid {
     background: #33CCCC;
-    animation: color 0.3s infinite linear;
+    animation: color 5s infinite linear;
 }
 
 

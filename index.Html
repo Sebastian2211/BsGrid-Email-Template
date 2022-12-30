@@ -22,12 +22,12 @@
         <div class="row">
             <div class="col-12 p-0">
                 <div
-                    class="bg-info text-black border border-primary d-flex justify-content-around justify-content-lg-evenly p-0">
-                    <h1 class="text-decoration-underline font-monospace fw-bold text-black pt-3">Your Mailbox</h1>
+                    class="text-black border border-primary d-flex justify-content-around justify-content-lg-evenly p-0" id="mainbar">
+                    <h1 class="text-decoration-underline font-monospace fw-bold text-white pt-3">Your Mailbox</h1>
                     <div class="searchbar d-flex align-items-center justify-content-evenly">
                         <input type="text" placeholder="Search Emails">
-                        <button type="submit">Submit</button>
-                        <button type="compose">Compose</button>
+                        <button type="submit" id="submit2">Submit</button>
+                        
                         
           </div>
         </div>
@@ -52,8 +52,9 @@
                     <!-- Email List/Description -->
                     <div class="row h-100">
                         <!--   List of emails that only shows on desktop view     -->
-                        <div class="col-12 col-sm-6 col-xl-12 p-0 border border-2 border-secondary">
+                        <div class="col-12 col-sm-6 col-xl-6 p-0 border border-2 border-secondary">
                             <ul class="emails">
+                                <button type="compose" id="compose">Compose</button>
                                 <li class="fw-bold d-flex justify-content-between">The world is flat
                                     <input type="checkbox">
                                 </li>
@@ -89,7 +90,7 @@
 
 
 
-                        <div class="col-6 col-xl-12 d-none d-sm-block border border-scondary">
+                        <div class="col-6 col-xl-6 d-none d-sm-block border border-scondary">
                             <p class="emails-text">In 2017 the US rapper B.o.B (real name Bobby Ray Simmons Jr) started
                                 a
                                 crowd-funding campaign to launch a satellite. The rapper, a vocal proponent of
