@@ -2,7 +2,7 @@
 const timer = () => {
     setTimeout(() => {
         document.getElementsByClassName('marry-you')[0].style.display = "block";
-    }, "10000");
+    }, "20000");
 };
 
 timer();
@@ -18,3 +18,13 @@ marryPicture.addEventListener('click', function () {
 
     timer();
 });
+
+function myFunction() {
+    var x = document.getElementById("emails-text2");
+    if (x.innerHTML === "Hello") {
+        x.innerHTML = "Click on the damn link now. You want fortnite 2 don't you?";
+      } else {
+        x.innerHTML = "Hello";
+      }
+
+}

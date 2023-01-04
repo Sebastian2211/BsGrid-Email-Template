@@ -4,8 +4,11 @@
     font-family: monospace;
 }
 
+/* Using a windows 95 screensaver for a wallpaper */
 #mainbar {
     background-image: url(bg1.jpg);
+    width: auto;
+    height: auto;
 }
 .text-black {
     display: flex;
@@ -84,11 +87,6 @@
     cursor: pointer;
 }
 
-#compose {
-   position: relative;
-   top: 10%;
-   left: 18cm;
-}
 
 #compose:hover {
     background-color: darkgrey;
